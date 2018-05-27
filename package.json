@@ -1,0 +1,32 @@
+{
+  "name": "vilela-labs-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=DEV nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "json:server": "json-server --watch src/db.json",
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "graphql": "^0.13.2",
+    "graphql-tools": "^3.0.2",
+    "json-server": "^0.12.2",
+    "koa": "^2.5.1",
+    "koa-body": "^2.5.0",
+    "koa-convert": "^1.2.0",
+    "koa-cors": "0.0.16",
+    "koa-cors-error": "0.0.2",
+    "koa-graphql": "^0.7.5",
+    "koa-gzip": "^0.1.0",
+    "koa-helmet": "^4.0.0",
+    "koa-router": "^7.4.0",
+    "lodash": "^4.17.10",
+    "mongoose": "^5.1.2"
+  }
+}
