@@ -27,6 +27,6 @@
     "koa-helmet": "^4.0.0",
     "koa-router": "^7.4.0",
     "lodash": "^4.17.10",
-    "mongoose": "^5.1.2"
+    "mongoose": "^5.7.1"
   }
 }

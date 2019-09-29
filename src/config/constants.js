@@ -18,7 +18,7 @@ module.exports = {
   MONGO: {
     CONFIG: {
       port: process.env.MONGO_PORT || 27017,
-      url: process.env.MONGO_HOST || 'mongodb://localhost:27017'
+      url: process.env.MONGO_HOST || 'mongodb+srv://admin:teste123@cluster0-i0gi8.mongodb.net/test?retryWrites=true&w=majority'
     },
     OPTIONS: {
       poolSize: 10,
